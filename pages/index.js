@@ -18,7 +18,7 @@ export default function Home({allPostsData}) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Abdelrahman Shaheen</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>I am Software Engineer and I Love reading books and writing and contributing to open source.</p>
