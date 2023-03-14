@@ -1,9 +1,10 @@
 {
   "private": true,
-    "scripts": {
-    "cloudflare:build": "node node_modules/@cloudflare/next-on-pages/bin/index.js --experimental-minify",
-    "postinstall": "patch-package"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "date-fns": "^2.29.3",
     "fs": "^0.0.1-security",
@@ -14,9 +15,5 @@
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.2"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "^0.3.0",
-    "patch-package": "^6.5.1"
   }
 }
